@@ -724,9 +724,10 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 /* Footer */
 .footer {
-  background: var(--footer);
-  color: #d4d4d4;
+  background: #fff;
+  color: #525252;
   padding: 2.75rem 0 1.35rem;
+  border-top: 1px solid var(--line);
 }
 .footer__top {
   display: flex; justify-content: space-between; align-items: center;
@@ -740,24 +741,24 @@ button, input, select, textarea { font: inherit; color: inherit; }
   background: transparent; padding: 0;
 }
 .footer__locale {
-  margin: 0; border: 1px solid #3a4250; padding: .55rem .9rem;
-  font-size: .85rem; color: #fff;
+  margin: 0; border: 1px solid var(--line); padding: .55rem .9rem;
+  font-size: .85rem; color: var(--ink);
 }
 .footer__grid {
   display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem;
-  padding-bottom: 2rem; border-bottom: 1px solid #2a313b;
+  padding-bottom: 2rem; border-bottom: 1px solid var(--line);
 }
 .footer h4 {
-  color: #fff; font-size: .72rem; font-weight: 700;
+  color: var(--ink); font-size: .72rem; font-weight: 700;
   letter-spacing: .08em; text-transform: uppercase; margin-bottom: .85rem;
 }
 .footer nav { display: flex; flex-direction: column; gap: .5rem; }
-.footer a { color: #e0e0e0; font-size: .875rem; }
-.footer a:hover { color: #fff; }
+.footer a { color: #525252; font-size: .875rem; }
+.footer a:hover { color: var(--blue); }
 .footer__base {
   display: flex; flex-wrap: wrap; gap: .5rem 1.5rem;
   justify-content: space-between; padding-top: 1rem;
-  font-size: .75rem; color: #8d8d8d;
+  font-size: .75rem; color: #6f6f6f;
 }
 
 /* FAB */
