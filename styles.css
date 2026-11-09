@@ -16,7 +16,7 @@
   --wash: #f4f4f4;
   --paper: #ffffff;
   --footer: #0f1419;
-  --nav-h: 76px;
+  --nav-h: 60px;
   --max: 1280px;
   --gutter: clamp(1.75rem, 6.5vw, 4.75rem);
   --radius-card: 2px;
@@ -137,8 +137,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .brand__logo,
 .brand img {
   width: auto;
-  height: 58px;
-  max-width: 220px;
+  height: 40px;
+  max-width: 160px;
   object-fit: contain;
   display: block;
   background: transparent;
@@ -816,8 +816,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 
 @media (max-width: 760px) {
-  :root { --nav-h: 52px; }
-  .brand__logo, .brand img { height: 36px; max-width: 140px; }
+  :root { --nav-h: 48px; }
+  .brand__logo, .brand img { height: 30px; max-width: 120px; }
   .nav__toggle { display: flex; }
   .nav__links {
     position: fixed; inset: var(--nav-h) 0 auto 0;
@@ -873,11 +873,11 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 
 /* title/logo size tweak */
-.brand img { height: 64px !important; width: auto !important; max-width: 240px !important; background: transparent !important; }
+.brand img { height: 44px !important; width: auto !important; max-width: 170px !important; background: transparent !important; }
 .hero h1, .hero__copy h1 { font-size: clamp(2.4rem, 5.5vw, 3.6rem) !important; line-height: 1.12 !important; }
 .hero .lead, .hero__copy .lead, .hero__copy > p, .hero p.lead { font-size: 0.95rem !important; line-height: 1.5 !important; opacity: 0.9; max-width: 36rem; }
 @media (max-width: 768px) {
-  .brand img { height: 36px !important; max-width: 140px !important; }
+  .brand img { height: 30px !important; max-width: 120px !important; }
   .hero h1, .hero__copy h1 { font-size: clamp(1.85rem, 8vw, 2.35rem) !important; }
   .hero .lead, .hero__copy .lead, .hero__copy > p { font-size: 0.88rem !important; }
 }
