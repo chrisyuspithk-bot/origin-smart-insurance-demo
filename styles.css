@@ -16,7 +16,7 @@
   --wash: #f4f4f4;
   --paper: #ffffff;
   --footer: #0f1419;
-  --nav-h: 64px;
+  --nav-h: 76px;
   --max: 1280px;
   --gutter: clamp(1.75rem, 6.5vw, 4.75rem);
   --radius-card: 2px;
@@ -137,8 +137,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .brand__logo,
 .brand img {
   width: auto;
-  height: 44px;
-  max-width: 170px;
+  height: 58px;
+  max-width: 220px;
   object-fit: contain;
   display: block;
   background: transparent;
@@ -737,7 +737,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
   display: flex; align-items: center; gap: .75rem;
 }
 .footer__brand img {
-  width: auto; height: 72px; max-width: 280px; object-fit: contain;
+  width: auto; height: 40px; max-width: 150px; object-fit: contain;
   background: transparent; padding: 0;
 }
 .footer__locale {
@@ -816,8 +816,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 
 @media (max-width: 760px) {
-  :root { --nav-h: 44px; }
-  .brand__logo, .brand img { height: 26px; max-width: 100px; }
+  :root { --nav-h: 52px; }
+  .brand__logo, .brand img { height: 36px; max-width: 140px; }
   .nav__toggle { display: flex; }
   .nav__links {
     position: fixed; inset: var(--nav-h) 0 auto 0;
@@ -873,11 +873,11 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 
 /* title/logo size tweak */
-.brand img { height: 48px !important; width: auto !important; max-width: 180px !important; background: transparent !important; }
+.brand img { height: 64px !important; width: auto !important; max-width: 240px !important; background: transparent !important; }
 .hero h1, .hero__copy h1 { font-size: clamp(2.4rem, 5.5vw, 3.6rem) !important; line-height: 1.12 !important; }
 .hero .lead, .hero__copy .lead, .hero__copy > p, .hero p.lead { font-size: 0.95rem !important; line-height: 1.5 !important; opacity: 0.9; max-width: 36rem; }
 @media (max-width: 768px) {
-  .brand img { height: 26px !important; max-width: 100px !important; }
+  .brand img { height: 36px !important; max-width: 140px !important; }
   .hero h1, .hero__copy h1 { font-size: clamp(1.85rem, 8vw, 2.35rem) !important; }
   .hero .lead, .hero__copy .lead, .hero__copy > p { font-size: 0.88rem !important; }
 }
