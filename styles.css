@@ -815,8 +815,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 
 @media (max-width: 760px) {
-  :root { --nav-h: 56px; }
-  .brand__logo, .brand img { height: 40px; max-width: 150px; }
+  :root { --nav-h: 48px; }
+  .brand__logo, .brand img { height: 28px; max-width: 110px; }
   .nav__toggle { display: flex; }
   .nav__links {
     position: fixed; inset: var(--nav-h) 0 auto 0;
@@ -876,7 +876,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .hero h1, .hero__copy h1 { font-size: clamp(2.4rem, 5.5vw, 3.6rem) !important; line-height: 1.12 !important; }
 .hero .lead, .hero__copy .lead, .hero__copy > p, .hero p.lead { font-size: 0.95rem !important; line-height: 1.5 !important; opacity: 0.9; max-width: 36rem; }
 @media (max-width: 768px) {
-  .brand img { height: 40px !important; max-width: 150px !important; }
+  .brand img { height: 28px !important; max-width: 110px !important; }
   .hero h1, .hero__copy h1 { font-size: clamp(1.85rem, 8vw, 2.35rem) !important; }
   .hero .lead, .hero__copy .lead, .hero__copy > p { font-size: 0.88rem !important; }
 }
